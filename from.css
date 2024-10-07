@@ -18,7 +18,7 @@ body{
 	width: 100%;
 	padding: 25px;
 	border-radius: 8px;
-	box-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
+	box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
 }
 .container header{
 	font-size: 1.5rem;
