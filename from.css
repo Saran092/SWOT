@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	background:linear-gradient(#0F0F0F,#2E2E2E);
+ 	font-family: "Outfit", sans-serif;
+ 	color: white;	
+}
+.container{
+	position: relative;
+	max-width: 720px;
+	width: 100%;
+	padding: 25px;
+	border-radius: 8px;
+	box-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
+}
+.container header{
+	font-size: 1.5rem;
+	font-weight: 500;
+	text-align: center;
+}
+.container .form{
+	margin-top: 30px;
+}
+.form .input-box{
+	width: 100%;
+	margin-top: 20px;
+}
+
+.form .input-box input{
+	position: relative;
+	width: 95%;
+	height: 50px;
+	font-size: 1rem;
+	color: #707070;
+	margin-top: 8px;
+	outline: none;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	padding: 0 15px;
+}
+.input-box input :focus{
+	box-shadow: 0 1px 3 rgba(0, 0, 0, 0.1);
+}
+
+.SWATcontainer{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1.5rem;
+	margin-top: 30px;
+}
+.SWATcontainer textarea {
+    grid-column: span 2; 
+    padding: 16px;
+    outline: none;
+    width: 90%;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    resize: vertical;
+    font-size: 18px;
+}
+.submitBut{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.submit{
+	background-color: white;
+	color: black;
+	width: 50%;
+	height: 30px;
+	border-radius: 15px;
+	border: 1px solid white;
+}
+
+@media screen and (max-width:600px){
+	.SWATcontainer{
+		grid-template-columns: 1fr;
+
+	}
+}
